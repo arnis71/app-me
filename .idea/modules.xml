@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_me.iml" filepath="$PROJECT_DIR$/app_me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gplayparser/gplayparser.iml" filepath="$PROJECT_DIR$/gplayparser/gplayparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kinohodapi/kinohodapi.iml" filepath="$PROJECT_DIR$/kinohodapi/kinohodapi.iml" />
+    </modules>
+  </component>
+</project>

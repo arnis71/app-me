@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <kr.pe.burt.android.lib.animategradientview.AnimateGradientView
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:agv_startColor="#101010"
+        app:agv_startOffset=".5"
+        app:agv_endColor="@android:color/transparent"
+        app:agv_animation="flow"
+        app:agv_angle="130"
+        app:agv_duration="1000"/>
+    <ImageView
+        android:alpha=".92"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#283593"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.github.mikephil.charting.charts.PieChart>
+
+
+</RelativeLayout>
